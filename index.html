@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta chatset ="utf-8"/>
+	<meta name="description" content="bienvenidos a biciweb" />
+	<link rel="shourcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+
+	<title>Nuevo equipo de cilismo colombiano</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+                <li>inicio</li>
+				<li><a href="presentacion.html">presentacion</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="Logros.html">Logros</a></li>
+
+			</ul>
+
+
+		</nav>
+
+
+	</header>
+	<section id="contenido">
+	<h1>Equipo de ciclismo colombiano</h1>
+    <img src="img/imagen1.png" title="Team manzana postobon" alt="La imagen ha tenido problemas para cargar">
+    <article>
+    <p> El nuevo quipo de ciclismo colombiano, fue revelado en una presentacion en medellin.
+    Team Manzana Postobon aprovechara la experiancia que tiene el pais en cuanto al ciclismo y han programado que para el 2016 y 2017, el equipo estara en grandes carreras europeas. </p>
+    </article>
+    <article id="galeria">
+
+    	<h2>Experiencias</h2>
+        <p>Puedes cambiar las imagenes haciendo clic en los lados.</p>
+    	<div class="flexslider">
+    		<ul class="slides">
+    			<li><img src="img/imagen2.png"></li>
+    			<li><img src="img/imagen3.png"></li>
+    			<li><img src="img/imagen4.png"></li>
+    			<li><img src="img/imagen5.png"></li>
+    			<li><img src="img/imagen6.png"></li>
+
+    		</ul>
+
+    	</div>
+    </article>
+    <aside>
+        <p>sigueme en twitter</p>
+   <a href="https://twitter.com/san9512" class="twitter-follow-button" data-show-count="false" data-lang="es" data-size="large">Seguir a @san9512</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    </aside>
+    </section>
+    <footer>
+    	Gracias por visitar mi pagina.
+
+    </footer>
+    
+</body>
+</html>
